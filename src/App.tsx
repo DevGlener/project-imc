@@ -1,3 +1,5 @@
+import Home from "@/layout/pages/home"
+import GlobalStyles from "@/styles/Global"
 
 
 function App() {
@@ -5,8 +7,8 @@ function App() {
 
   return (
     <>
-
-   
+    <GlobalStyles/> 
+    <Home/>  
     </>
   )
 }
